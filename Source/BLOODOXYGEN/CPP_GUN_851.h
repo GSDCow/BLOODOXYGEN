@@ -28,4 +28,6 @@ public:
 	//e‚ÌƒƒbƒVƒ…‚ğİ’è
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh", meta = (AllowPrivateAccess = "true"))
 		UStaticMeshComponent* US_GUN_851;
+	UPROPERTY()
+		float MaxRayDistance;
 };

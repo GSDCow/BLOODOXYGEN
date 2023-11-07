@@ -75,7 +75,7 @@ void ACPP_Player::Turn(float Value)
 	AddControllerYawInput(-Value);
 }
 //e‚ğŒ‚‚Â
-void ACPP_Player::IN_Fire()
+void ACPP_Player::IN_Fire(bool isFire)
 {
 
 }

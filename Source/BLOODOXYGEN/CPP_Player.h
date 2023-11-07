@@ -43,7 +43,7 @@ public:
 	void Turn(float Value);
 
 	//発射
-	void IN_Fire();
+	void IN_Fire(bool isFire);
 
 public:
 	//血中酸素ゲージ(全てのゲージ）
